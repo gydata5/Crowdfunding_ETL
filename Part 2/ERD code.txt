@@ -1,0 +1,37 @@
+Campaign
+-
+cf_id serial PK
+Contact_id int FK >- Contacts.Contact_id
+Company_name varchar(100)
+Description varchar(100)
+Goal float
+Pledged float
+Outcome varchar(50)
+Backers_count int
+Country varchar(8)
+Currency varchar(8)
+Launch_date date
+End_date date
+Category_id varchar(15) FK >- category.Category
+Subcategory_id varchar(15) FK >- Subcategory.subcategory_id
+Last_update timestamp
+
+Contacts
+-
+Contact_id serial PK
+First_name varchar(20)
+last_name varchar(20)
+Email text
+Last_update timestamp
+
+category
+-
+Category_id varchar(50) PK
+Category varchar(50)
+Last_update timestamp
+
+Subcategory
+-
+subcategory_id varchar(50) PK
+subcategory varchar(50)
+Last_update timestamp

@@ -28,40 +28,23 @@ This project uses the following technologies:
 - SQLAlchemy (for database interaction)
 - PGAdmin
 
-## Usage
+## Dependencies and Databases Used
 
-### Running the ETL Pipeline
-
-To run the entire ETL pipeline, simply execute the script for each step (extract, transform, load) in sequence:
-
-1. **Extract Data from the Crowdfunding Data**: This script will fetch data from the source.
-
-   ```bash
-   python scripts/extract.py
-   ```
-**Import dependencies**
+**Part 1 Folder**
 ```
 import pandas as pd
 import numpy as np
 **Set the column width**
 pd.set_option('max_colwidth', 400)
-```
-2. **Transform Data**: This script will clean and process the extracted data.
-
-   ```bash
-   python scripts/transform.py
-   ```
-**Import dependencies**
-```
 import json
 ```
-3. **Load Data**: This script will load the transformed data into the desired output format (e.g., database, CSV).
+**Part 2 Folder**
+```
+Using Quickdatabasediagrams.com, create your ERD, create a tet file and save a picture as .png. Once you have your ERD complete, create your queries. 
+```
+**Part 4 Folder**
+**Analysis Notebook**
 
-   ```bash
-   python scripts/load.py
-   ```
-## Analysis Notebook
-**Import the dependencies**
 ```
 import pandas as pd
 import numpy as np

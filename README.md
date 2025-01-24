@@ -71,7 +71,7 @@ import datetime
 **Plotting**
 ```
 import matplotlib.pyplot as plt
-#import seaborn as sns
+**Seaborn could be used here**
 ```
 **ORM**
 ```

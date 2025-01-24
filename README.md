@@ -62,3 +62,5 @@ from sqlalchemy import create_engine, inspect,
 from sqlalchemy.orm import Session
 from sqlalchemy.ext.automap import automap_base
 ```
+## Contributions
+This project was worked on by Georgina Young, Luisa Murillo, Thai Champagne, and Asia Byrnes. 
